@@ -5,7 +5,7 @@ import User from "./pages/User";
 function App() {
   return (
     <>
-      <div>
+      <div className="min-h-screen bg-gray-800 flex flex-col justify-center">
         <BrowserRouter>
           <h1>React-Router-URL-Parameter-Basics</h1>
           <Routes>
